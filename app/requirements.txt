@@ -1,0 +1,8 @@
+Flask==3.0.0
+setuptools<81
+opentelemetry-sdk==1.21.0
+opentelemetry-exporter-prometheus==0.42b0
+opentelemetry-exporter-otlp-proto-grpc==1.21.0
+opentelemetry-instrumentation==0.42b0
+opentelemetry-instrumentation-flask==0.42b0
+opentelemetry-instrumentation-logging==0.42b0
