@@ -1,3 +1,4 @@
+version: "3.3"
 services:
   app:
     image: iu5devops/app
@@ -71,12 +72,8 @@ services:
 
 volumes:
   grafana-storage: 
-    name: iu5devops-grafana-storage
   prometheus-data: 
-    name: iu5devops-prometheus-data
   app-log: 
-    name: iu5devops-app-log
 
 networks:
   iu5devops: 
-    name: iu5devops
